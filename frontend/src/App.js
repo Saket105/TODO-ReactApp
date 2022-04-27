@@ -1,6 +1,10 @@
 import "./App.css";
+import React from "react";
+import { useState } from "react";
+
 
 function App() {
+
   return (
     <div className="App">
       <h1>TODO React App</h1>
@@ -8,8 +12,7 @@ function App() {
       <button>Add Todo</button>
 
       <ul>
-        <li>Take dogs for a walk</li>
-        <li>Eat your dinner</li>
+        
       </ul>
     </div>
   );
