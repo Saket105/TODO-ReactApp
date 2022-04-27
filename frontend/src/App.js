@@ -1,19 +1,14 @@
 import "./App.css";
 import React from "react";
-import { useState } from "react";
-
+import Form from "./components/Form";
 
 function App() {
-
   return (
     <div className="App">
-      <h1>TODO React App</h1>
-      <input type="text" />
-      <button>Add Todo</button>
-
-      <ul>
-        
-      </ul>
+      <header>
+        <h1>TODO React App</h1>
+      </header>
+      <Form/>
     </div>
   );
 }
